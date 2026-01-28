@@ -1,0 +1,21 @@
+{
+  "name": "number-set-compressor",
+  "version": "1.0.0",
+  "description": "TypeScript: Compact number set serialization (99x avg compression)",
+  "main": "dist/compressor.js",
+  "types": "dist/compressor.d.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "npm run build && node dist/test.js",
+    "dev": "npx tsc --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "typescript",
+    "compression",
+    "serialization"
+  ]
+}
